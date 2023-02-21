@@ -1,0 +1,16 @@
+section article #imagen {
+    /* font-size: 7rem; */
+    width: 45rem;
+}
+
+#soyunfooter{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100vw;
+    padding: 2rem 0;
+}
+
+#coffee {
+    font-size: 4rem;
+}
