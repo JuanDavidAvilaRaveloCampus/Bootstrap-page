@@ -21,7 +21,7 @@
 </head>
 
 
-<body class="bg-warning"> 
+<body class="bg-warning position-relative"> 
     <header>
         <div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary navbar bg-dark" data-bs-theme="dark">
@@ -46,15 +46,15 @@
             </nav>
         </div>
     </header>
-    <main class=" d-flex m-5">
+    <main class=" d-flex m-5 position-relative">
         <!-- SECTION LEFT -->
-        <section class="d-flex justify-content-between w-50">
-            <article class="m-4">
+        <section class="d-flex justify-content-between w-50 p-relative position-absolute ">
+            <article>
                 <div>
                     <h1 class=" ps-5 " id="coffee">COFFEE</h1>
                 </div> 
                 <div class="p-3">
-                    <p class="fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, obcaecati quam. Est
+                    <p class="fs-4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, obcaecati quam. Est
                         ullam dicta
                         animi enim officia quidem, iure earum deleniti veniam maiores. Soluta corrupti ipsum nulla
                         minima perspiciatis odit?
@@ -63,11 +63,7 @@
                         officiis quia veritatis laboriosam in? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Magni placeat perspiciatis provident quidem vel, autem officia laborum excepturi eligendi
                         exercitationem magnam mollitia, id atque nam doloremque quos nostrum ut dolore? Lorem ipsum
-                        dolor sit, amet consectetur adipisicing elit. Doloribus velit incidunt dolores vel aliquid,
-                        voluptatum fuga delectus beatae accusamus optio molestiae porro odio quia recusandae ipsa
-                        architecto laborum alias inventore? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Eveniet esse magnam accusantium expedita obcaecati debitis perspiciatis possimus minus
-                        temporibus assumenda quasi nihil sapiente voluptate voluptas deserunt quaerat, vitae ab! Quis!
+                        dolor sit, amet consectetur adipisicing elit. 
                     </p>
                     
                     <button type="button" class="btn btn-dark fs-3 w-25">BUY</button>
@@ -76,66 +72,79 @@
             </article>
         </section>
         <!-- SECTION RIGHT -->
-        <section class="m-5">
-            <article>
-                <img class="rounded-pill" id="imagen" src="./img/coffee.jpg" alt="necesito café:D">
+        <section class="m-5 d-flex justify-content-end position-absolute end-0 pe-5">
+            <article class="pe-5">
+                <img class="rounded-circle w-100 pe-5" id="imagen" src="./img/coffee.jpg" alt="necesito café:D">
             </article>
-            <div>
-                <nav>
-                    <div class="d-flex" >
-                        <ul style="list-style: none;" class="d-flex m-0">
-                            <li>
-                                <img class="rounded-circle w-25" src="./img/MOCHA.jpg" alt="mocha">
-                            </li>
-                            <li>
-                                <img class="rounded-circle w-25" src="./img/BONBON.jpg" alt="BONBON">
-                            </li>
-                            <li>
-                                <img class="rounded-circle w-25" src="./img/CAPMUCCINO.jpg" alt="CAPUCCINO">
-                            </li>
-                            <li>
-                                <img class="rounded-circle w-25" src="./img/LATTE-MACCHIATO.jpg" alt="LATTE-MACCHIATO">
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
         </section>
-        <div class="mt-5">
+        <section>
+            <article class="position-absolute bottom-0 end-50 ms-5 w-25">
+                <div >
+                    <nav>
+                        <div class="d-flex" >
+                            <ul style="list-style: none;" class="d-flex">
+                                <li>
+                                    <a href="https://www.bbc.co.uk/food/recipes/the_perfect_mocha_coffee_29100">
+                                        <img class="rounded-circle icon-coffee me-5 uwu " src="./img/MOCHA.jpg" alt="mocha">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://espressocoffeeguide.com/all-about-espresso/espresso-drink-recipes/cafe-bombon/">
+                                        <img class="rounded-circle icon-coffee me-5 uwu" src="./img/BONBON.jpg" alt="BONBON">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.starbucksathome.com/es/recetas/cappuccino">
+                                        <img class="rounded-circle icon-coffee me-5 uwu" src="./img/CAPMUCCINO.jpg" alt="CAPUCCINO">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.starbucksathome.com/es/recetas/latte-macchiato">
+                                        <img class="rounded-circle icon-coffee me-5 uwu" src="./img/LATTE-MACCHIATO.jpg" alt="LATTE-MACCHIATO">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+    
+            </article>
+        </section>
+        <div class="mt-5 me-5 pe-5 position-absolute end-0">
             <nav>
                 <ul  class="fs-1 mt-5" style="list-style: none;">
                     <li>
                         <a href="https://es-la.facebook.com/login/device-based/regular/login/">
-                            <i class="fa-brands fa-facebook text-dark"></i>
+                            <i class="fa-brands fa-facebook text-dark mt-4"></i>
                         </a>
                     </li>
-                    <li >
+                    <li>
                         <a href="https://twitter.com/?lang=es">
-                            <i class="fa-brands fa-twitter text-dark"></i>
+                            <i class="fa-brands fa-twitter text-dark mt-4"></i>
                         </a>
                     </li>
-                    <li >
+                    <li>
                         <a href="https://www.whatsapp.com/?lang=es">
-                            <i class="fa-brands fa-whatsapp text-dark"></i>
+                            <i class="fa-brands fa-whatsapp text-dark mt-4"></i>
                         </a>
                     </li>
                     <li >
                         <a href="https://www.instagram.com/">
-                            <i class="fa-brands fa-instagram text-dark"></i>
+                            <i class="fa-brands fa-instagram text-dark mt-4"></i>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/">
-                            <i class="fa-brands fa-youtube text-dark fs-2 mt-0 pb-1"></i>
+                            <i class="fa-brands fa-youtube text-dark mt-4 fs-2 mt-0 pb-1"></i>
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
     </main>
-    <footer class="bg-secondary bg-dark" id="soyunfooter">
-        <div class="h-100 ">
-            <span class="text-light h-100 fs-3">Derechos reservados a CAMPUS</span>
+    <footer class="bg-secondary bg-dark position-absolute w-100">
+        <div class="footer text-center p-3">
+            <span class="text-light h-100 fs-3">Derechos reservados a CAMPUS</span> 
         </div>
     </footer>
 

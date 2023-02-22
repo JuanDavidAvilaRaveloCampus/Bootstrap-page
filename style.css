@@ -3,14 +3,26 @@ section article #imagen {
     width: 45rem;
 }
 
-#soyunfooter{
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100vw;
-    padding: 2rem 0;
+main {
+    height: 70vh;
 }
+/* #coffee {
+    font-size: 3rem;
+} */
 
 #coffee {
     font-size: 4rem;
+}
+
+.icon-coffee {
+    width: 5rem;
+}
+
+.uwu {
+    cursor: pointer;
+}
+
+.footer {
+    height: 5rem;
+    bottom: 0;
 }
