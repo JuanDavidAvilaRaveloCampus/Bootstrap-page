@@ -1,28 +1,18 @@
-section article #imagen {
-    /* font-size: 7rem; */
-    width: 45rem;
-}
 
-main {
-    height: 70vh;
-}
-/* #coffee {
-    font-size: 3rem;
-} */
 
 #coffee {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .icon-coffee {
-    width: 5rem;
+    width: 4rem;
 }
 
 .uwu {
     cursor: pointer;
 }
 
-.footer {
-    height: 5rem;
-    bottom: -99px;
+a {
+    text-decoration: none;
+    color: black;
 }
